@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Google</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Imagens</a></li>
+            </ul>
+        </nav>
+
+
+        <button class="menu-button" onclick="myFunction()">
+            <div class="bar1 menu-icon"></div>
+            <div class="bar2 menu-icon"></div>
+            <div class="bar3 menu-icon"></div>
+        </button>
+        
+        <div id="myMenu" class="menu">
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fas fa-image"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+            <a href="#"><i class="fas fa-image"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
+        </div>
+
+        
+    </header>
+
+    <article id="principal">
+        <img src="/imagens/google.png" alt="google"/>
+    
+        <form class="formulario-pesquisa">
+            <input type="search" class="input-1">
+        </form>
+            <button class="primeiro-botao">Pesquisa Google</button>
+            <button class="segundo-botao">Estou com sorte</button>
+    </article>
+
+    <footer>
+        
+        <h3 style="width: max-content;background-color: #cdcdc4;width: 100%;display: flex;justify-content: center;" class="rodape-titulo">Brasil</h3>
+
+        <nav style="width: max-content;">
+            <ul class="rodape-texto">
+                <li style="margin-bottom: 0.5em;">Sobre</li>
+                <li style="margin-bottom: 0.5em;">Publicidade</li>
+                <li style="margin-bottom: 0.5em;">Negócios</li>
+                <li>Como Funciona a Pesquisa</li>
+            </ul>
+        </nav>
+
+    </footer>
+
+    <script src="javascript.js"></script>
+    <script src="https://kit.fontawesome.com/3c0b8d1c0f.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    
+</body>
+</html>
